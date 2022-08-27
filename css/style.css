@@ -1,0 +1,181 @@
+
+.q1-box {
+  width: 400px;
+  height: 400px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+.q2-box {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+.q3-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.q3-box1 {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  margin-right: 150px;
+}
+.q3-box2 {
+  width: 300px;
+  height: 300px;
+  background: #22ff00;
+}
+
+.q4-wrapper {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+}
+
+.q4-box1 {
+  position: relative;
+  left: -50%;
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+
+.q4-box2 {
+  position: relative;
+  left: -50%;
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.question--title {
+  clear: both;
+}
+
+.flex-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.q5-a {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  text-align: center;
+  line-height: 300px;
+}
+
+.q5-b {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  text-align: center;
+  line-height: 300px;
+}
+
+.q5-c {
+  width: 300px;
+  height: 300px;
+  background: #ff8400;
+  text-align: center;
+  line-height: 300px;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.q6-a {
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+  text-align: center;
+  line-height: 300px;
+}
+
+.q6-b {
+  width: 300px;
+  height: 300px;
+  background: #d4ff00;
+  text-align: center;
+  line-height: 300px;
+}
+
+.q6-c {
+  width: 300px;
+  height: 300px;
+  background: #ff00e1;
+  text-align: center;
+  line-height: 300px;
+}
+
+.q7-box1 {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+
+.q7-box2 {
+  display: none;
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.q7-box3 {
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+}
+
+@media screen and (max-width: 960px){
+  .q1-box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .q2-box {
+    background: #007bff;
+  }
+
+  .q3-box1 {
+    margin-right: 50px;
+  }
+
+  .q4-box2 {
+    clear: left;
+  }
+
+  .flex-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .q6-a {
+    order:2;
+  }
+
+  .q6-b {
+    order:3;
+  }
+
+  .q6-c {
+    order:1;
+  }
+
+  .q7-box1 {
+    display: none;
+  }
+
+  .q7-box2 {
+    display:block;
+  }
+}
