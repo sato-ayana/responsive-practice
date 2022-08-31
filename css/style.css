@@ -69,6 +69,7 @@
   background: #ff0000;
   text-align: center;
   line-height: 300px;
+  order: 1;
 }
 
 .q5-b {
@@ -77,6 +78,7 @@
   background: #0008ff;
   text-align: center;
   line-height: 300px;
+  order: 2;
 }
 
 .q5-c {
@@ -85,6 +87,7 @@
   background: #ff8400;
   text-align: center;
   line-height: 300px;
+  order: 3;
 }
 
 .flex-2 {
@@ -98,6 +101,7 @@
   background: #00ff51;
   text-align: center;
   line-height: 300px;
+  order:1;
 }
 
 .q6-b {
@@ -106,6 +110,7 @@
   background: #d4ff00;
   text-align: center;
   line-height: 300px;
+  order:2;
 }
 
 .q6-c {
@@ -114,12 +119,14 @@
   background: #ff00e1;
   text-align: center;
   line-height: 300px;
+  order:3;
 }
 
 .q7-box1 {
   width: 300px;
   height: 300px;
   background: #ff0000;
+  order: 1;
 }
 
 .q7-box2 {
@@ -127,12 +134,14 @@
   width: 300px;
   height: 300px;
   background: #0008ff;
+  order: 2;
 }
 
 .q7-box3 {
   width: 300px;
   height: 300px;
   background: #00ff51;
+  order: 3;
 }
 
 @media screen and (max-width: 960px){
